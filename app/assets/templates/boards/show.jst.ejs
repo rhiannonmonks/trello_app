@@ -1,0 +1,13 @@
+<h1><%= board.escape('title') %></h1>
+<% if (board.get('members')){ %>
+  <ul class="member-list">
+    <h3>Members</h3>
+    <% board.get('members').forEach(function(member){ %>
+      <li><%= member.email %></li>
+      <% }) %>
+  </ul>
+  <% } %>
+<!-- <a href="a">Add a Member</a> -->
+
+<ul class="lists group"></ul>
+<a href="#">Add a List</a>
