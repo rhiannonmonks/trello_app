@@ -1,4 +1,4 @@
-var app = app || {};
+ var app = app || {};
 
 TrelloClone.Router.Boards = Backbone.Router.extend({
 routes: {
